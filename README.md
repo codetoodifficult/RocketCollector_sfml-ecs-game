@@ -11,6 +11,12 @@ A 2D rocket-collecting game built with C++17 and SFML 3.1, powered by a hand-wri
 | Enter | 切换全屏 / Toggle fullscreen |
 | Escape | 退出游戏 / Exit game |
 
+## Acknowledgements
+
+Project structure and initial CMake configuration
+are based on [SFML/cmake-sfml-project](https://github.com/SFML/cmake-sfml-project).
+
+---
 
 欢迎交流与提出建议！
 
