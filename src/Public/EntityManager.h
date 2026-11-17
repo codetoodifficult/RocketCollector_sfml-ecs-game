@@ -44,7 +44,7 @@ public:
 	template<typename T>
 	static T* GetComponentFromEntityIndex(int InEntityIndex);
 
-	static const std::unordered_map<int, std::vector<std::unique_ptr<Component>>>& const GetEntityMap();
+	static const std::unordered_map<int, std::vector<std::unique_ptr<Component>>>& GetEntityMap();
 
 	static void OnUpdate(float delta);
 	static void OnDraw(sf::RenderWindow& window, float delta);
