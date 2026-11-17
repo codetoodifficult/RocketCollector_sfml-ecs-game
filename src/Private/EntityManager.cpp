@@ -5,7 +5,7 @@ void EntityManager::RemoveEntity(int InEntityIndex)
 	m_entitys->erase(InEntityIndex);
 }
 
-const std::unordered_map<int, std::vector<std::unique_ptr<Component>>>& const EntityManager::GetEntityMap()
+const std::unordered_map<int, std::vector<std::unique_ptr<Component>>>& EntityManager::GetEntityMap()
 {
 	return *m_entitys;
 }
